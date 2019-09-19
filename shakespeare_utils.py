@@ -132,7 +132,7 @@ def generate_output():
     generated = ''
     #sentence = text[start_index: start_index + Tx]
     #sentence = '0'*Tx
-    usr_input = input("Write the beginning of your poem, the Shakespeare machine will complete it. Your input is: ")
+    usr_input = input("Forsooth this maketh no sense ")
     # zero pad the sentence to Tx characters.
     sentence = ('{0:0>' + str(Tx) + '}').format(usr_input).lower()
     generated += usr_input 
