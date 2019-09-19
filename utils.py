@@ -70,7 +70,7 @@ def update_parameters(parameters, gradients, lr):
     parameters['by']  += -lr * gradients['dby']
     return parameters
 
-def rnn_forward(X, Y, a0, parameters, vocab_size = 71):
+def rnn_forward(X, Y, a0, parameters, vocab_size = 27):
     
     # Initialize x, a and y_hat as empty dictionaries
     x, a, y_hat = {}, {}, {}
